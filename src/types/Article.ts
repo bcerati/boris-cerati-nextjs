@@ -6,7 +6,6 @@ export interface Article {
   content: string;
   tags: string[];
   published: boolean;
-  icon: string;
 }
 
 export default Article;

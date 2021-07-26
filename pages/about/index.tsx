@@ -1,6 +1,9 @@
 import Image from 'next/image';
 
+// @ts-ignore
 import rukia from '../../public/images/rukia.jpg';
+
+// @ts-ignore
 import nala from '../../public/images/nala.jpg';
 
 function AboutMe() {
