@@ -1,16 +1,27 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: karla;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+img[src$='centerme'] {
+  display: block;
+  margin: 0 auto;
 }
 
-* {
-  box-sizing: border-box;
+img[src$='centerme'] {
+  display: block;
+  margin: 0 auto;
+}
+
+body p > img + em {
+  display: block;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.8em;
 }
