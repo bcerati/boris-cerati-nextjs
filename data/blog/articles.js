@@ -1,7 +1,7 @@
 export default [
   {
     title: 'Rétrospective 2021, une année difficile. Objectifs 2022',
-    date: '28 Décembre 2021',
+    date: '26 Décembre 2021',
     description: `2021 arrive à sa fin. Ce n'est pas l'année pour laquelle j'ai le plus brillé professionnellement.  Cette année m'a forcé à prendre du recul sur 
     ce que je fais et ce que je souhaite faire dans les années à venir. Même si cette année à été le témoin de beaucoup d'échecs, je pense qu'elle a été charnière 
     pour ma carrière.`,
