@@ -9,14 +9,26 @@ body {
   font-family: karla;
 }
 
-img[src$='centerme'] {
+img[src*='centerme'] {
   display: block;
   margin: 0 auto;
 }
 
-img[src$='centerme'] {
-  display: block;
-  margin: 0 auto;
+img[src*='col50'] {
+  display: inline-block;
+  width: 47%;
+}
+
+img[src*='w300'] {
+  width: 300px;
+}
+
+img[src*='w200'] {
+  width: 200px;
+}
+
+img[src*='inline_block'] {
+  display: inline-block;
 }
 
 body p > img + em {

@@ -1,4 +1,28 @@
 export default [
+  {
+    title: 'Rétrospective 2021, une année difficile. Objectifs 2022',
+    date: '28 Décembre 2021',
+    description: `2021 arrive à sa fin. Ce n'est pas l'année pour laquelle j'ai le plus brillé professionnellement.  Cette année m'a forcé à prendre du recul sur 
+    ce que je fais et ce que je souhaite faire dans les années à venir. Même si cette année à été le témoin de beaucoup d'échecs, je pense qu'elle a été charnière 
+    pour ma carrière.`,
+    slug: 'retrospective-2021',
+    content: 'retrospective-2021/index.md',
+    tags: ['#2021', '#2022'],
+    published: true,
+  },
+
+  {
+    title: 'Mon environnement de travail',
+    date: '20 Septembre 2021',
+    description: `Voilà 8 mois que je travaille de chez moi entre 4 jours et 5 jours par semaine. Beaucoup de choses ont changé depuis le début de la pandémie de 
+    Covid-19. Y compris ma manière de travailler. Dans cet article, je vais vous montrer comment mon environnement de travail a changé ces 
+    derniers mois.`,
+    slug: 'working-environment',
+    content: 'working-environment/index.md',
+    tags: ['#remote', '#working-environment', '#productivity'],
+    published: false,
+  },
+
   // {
   //   title: 'Les outils de développement avec Google Chrome',
   //   date: '22 Février 2021',
